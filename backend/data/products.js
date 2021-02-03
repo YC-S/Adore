@@ -194,4 +194,4 @@ const products = [
 	},
 ]
 
-module.exports = products
+export default products
