@@ -82,7 +82,7 @@ const products = [
 		name: 'Monday Rocks',
 		image: '/images/Monday_Rocks.webp',
 		description:
-			'From $4..99/week \nCutest of All! \nDIY kit & 4-8 stems of premium fresh flowers picked and perfectly designed to put on a small working desk! They have the magic to fresh up your Mondays and be your rock for a hectic week!',
+			'DIY kit & 4-8 stems of premium fresh flowers picked and perfectly designed to put on a small working desk! They have the magic to fresh up your Mondays and be your rock for a hectic week!',
 		brand: 'Adore',
 		category: 'Flowers',
 		price: '4.99/week',
@@ -95,7 +95,7 @@ const products = [
 		name: 'Adore Classics',
 		image: '/images/Adore_Classics.webp',
 		description:
-			'From $4..99/week \nCutest of All! \nDIY kit & 4-8 stems of premium fresh flowers picked and perfectly designed to put on a small working desk! They have the magic to fresh up your Mondays and be your rock for a hectic week!',
+			'DIY kit & 6-12 stems of premium fresh flowers picked and perfectly designed to create classic table flowers! Start your week with these beauties blooming and stretching in the air!',
 		brand: 'Adore',
 		category: 'Flowers',
 		price: '9.99/week',
@@ -108,7 +108,7 @@ const products = [
 		name: 'Brightest Bloom',
 		image: '/images/Brightest_Bloom.webp',
 		description:
-			'From $4..99/week \nCutest of All! \nDIY kit & 4-8 stems of premium fresh flowers picked and perfectly designed to put on a small working desk! They have the magic to fresh up your Mondays and be your rock for a hectic week!',
+			'DIY kit & 12-24 stems of premium fresh flowers picked and designed to create a large bouquet, perfect to decorate a spacious living room!',
 		brand: 'Adore',
 		category: 'Flowers',
 		price: '19.99/week',
