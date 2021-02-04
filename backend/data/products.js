@@ -1,6 +1,5 @@
 const products = [
 	{
-		_id: '1',
 		name: 'Monday Rocks',
 		image: '/images/Monday_Rocks.jpg',
 		description:
@@ -13,7 +12,6 @@ const products = [
 		numReviews: 120,
 	},
 	{
-		_id: '2',
 		name: 'Adore Classics',
 		image: '/images/Adore_Classics.jpg',
 		description:
@@ -26,7 +24,6 @@ const products = [
 		numReviews: 56,
 	},
 	{
-		_id: '3',
 		name: 'Brightest Bloom',
 		image: '/images/Brightest_Bloom.jpg',
 		description:
@@ -39,7 +36,6 @@ const products = [
 		numReviews: 3,
 	},
 	{
-		_id: '4',
 		name: "Dora Bud Vase 5.5'",
 		image: '/images/vases/dora_bud_vase.jpg',
 		description:
@@ -53,7 +49,6 @@ const products = [
 		numReviews: 120,
 	},
 	{
-		_id: '5',
 		name: "Hurricane Glass Vase 6.5'",
 		image: '/images/vases/hurricane_glass_vase.jpg',
 		description:
@@ -67,7 +62,6 @@ const products = [
 		numReviews: 120,
 	},
 	{
-		_id: '6',
 		name: "Sleeping Beauty Mini Pot'",
 		image: '/images/vases/sleeping_beauty_mini_pot.jpg',
 		description:
@@ -81,7 +75,6 @@ const products = [
 		numReviews: 120,
 	},
 	{
-		_id: '7',
 		name: 'Blue Mini Footed Pot',
 		image: '/images/vases/blue_mini_footed_pot.jpg',
 		description:
@@ -95,7 +88,6 @@ const products = [
 		numReviews: 120,
 	},
 	{
-		_id: '8',
 		name: "Mini 3.15' Ceramic Pot",
 		image: '/images/vases/mini_ceramic_pot.jpg',
 		description:
@@ -109,7 +101,6 @@ const products = [
 		numReviews: 120,
 	},
 	{
-		_id: '9',
 		name: "Modern Creative Cube 3'",
 		image: '/images/vases/modern_creative_cube.jpg',
 		description:
@@ -123,7 +114,6 @@ const products = [
 		numReviews: 120,
 	},
 	{
-		_id: '10',
 		name: 'Pink Mini Footed Pot',
 		image: '/images/vases/pink_mini_footed_pot.jpg',
 		description:
@@ -137,7 +127,6 @@ const products = [
 		numReviews: 120,
 	},
 	{
-		_id: '11',
 		name: 'Handmade Wood Cube',
 		image: '/images/vases/Handmade_wood_cube.jpg',
 		description:
@@ -151,7 +140,6 @@ const products = [
 		numReviews: 120,
 	},
 	{
-		_id: '12',
 		name: 'Birch Bark Cube',
 		image: '/images/vases/birch_bark_cube.jpg',
 		description:
@@ -165,7 +153,6 @@ const products = [
 		numReviews: 120,
 	},
 	{
-		_id: '13',
 		name: 'Wood Drawer Cube',
 		image: '/images/vases/wood_drawer_cube.jpg',
 		description:
@@ -179,7 +166,6 @@ const products = [
 		numReviews: 120,
 	},
 	{
-		_id: '14',
 		name: 'White Ceramic Pot',
 		image: '/images/vases/white_ceramic_pot.jpg',
 		description:
