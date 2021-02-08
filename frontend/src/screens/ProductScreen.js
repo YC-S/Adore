@@ -81,6 +81,7 @@ const ProductScreen = ({ history, match }) => {
 											<Col>Qty</Col>
 											<Col>
 												<Form.Control
+													className='selectForm'
 													as='select'
 													value={qty}
 													onChange={(e) => setQty(e.target.value)}
