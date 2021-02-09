@@ -55,6 +55,6 @@ h2 {
 .selectForm {
 	padding: 0.75rem 0.2rem;
 }
-.checkout-steps-navbar-nav {
+.navbar-nav {
 	flex-direction: row;
 }
