@@ -10,7 +10,6 @@ import {
 	listProductDetails,
 	createProductReview,
 } from '../actions/productActions'
-import { addToCart } from '../actions/cartActions'
 import { PRODUCT_CREATE_REVIEW_RESET } from '../constants/productConstants'
 
 const ProductScreen = ({ history, match }) => {
@@ -45,9 +44,7 @@ const ProductScreen = ({ history, match }) => {
 	}, [dispatch, match, successProductReview])
 
 	const addToCartHandler = () => {
-		dispatch(addToCart(product._id, qty))
-		history.push('/cart')
-		// history.push(`/cart/${match.params.id}?qty=${qty}`)
+		history.push(`/cart/${match.params.id}?qty=${qty}`)
 	}
 
 	const submitHandler = (e) => {
@@ -88,7 +85,9 @@ const ProductScreen = ({ history, match }) => {
 									/>
 								</ListGroup.Item>
 								<ListGroup.Item>Price: ${product.price}</ListGroup.Item>
-								<ListGroup.Item>{product.description}</ListGroup.Item>
+								<ListGroup.Item>
+									Description: {product.description}
+								</ListGroup.Item>
 							</ListGroup>
 						</Col>
 						<Col md={3}>
@@ -102,6 +101,7 @@ const ProductScreen = ({ history, match }) => {
 											</Col>
 										</Row>
 									</ListGroup.Item>
+
 									<ListGroup.Item>
 										<Row>
 											<Col>Status:</Col>
@@ -117,7 +117,6 @@ const ProductScreen = ({ history, match }) => {
 												<Col>Qty</Col>
 												<Col>
 													<Form.Control
-														className='selectForm'
 														as='select'
 														value={qty}
 														onChange={(e) => setQty(e.target.value)}
